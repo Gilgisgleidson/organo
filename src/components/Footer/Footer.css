@@ -1,0 +1,13 @@
+.footer{
+    background-color: #6278F7;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.footer a{
+    display: inline-block;
+    margin-right: 32px;
+}
