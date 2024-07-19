@@ -31,15 +31,15 @@ const Form = (props) => {
                 <h2>Preencha os dados para criar o card do colaborador</h2>            
                 <TextField
                     required={true}
-                    label="Nome"
+                    label="Nome*"
                     placeholder="Digite o seu nome"
                     value = {name}
                     onTyping={value => setName(value)}
                 />
                 <TextField 
                     required={true}
-                    label="Cargo"
-                    placeholder="Digite o seu cargo"
+                    label="Função*"
+                    placeholder="Digite a sua função"
                     value = {role}
                     onTyping={value => setRole(value)}
                 />
@@ -51,7 +51,7 @@ const Form = (props) => {
                 />
                 <Combo
                     required={true}
-                    label="Time"
+                    label="Time*"
                     itens={props.teams}
                     value={team}
                     onTyping={value => setTeam(value)}
