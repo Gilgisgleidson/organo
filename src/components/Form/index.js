@@ -31,6 +31,7 @@ const Form = (props) => {
                 <h2>Preencha os dados para criar o card do colaborador</h2>            
                 <TextField
                     required={true}
+                    showAsterisk={true}
                     label="Nome"
                     placeholder="Digite o seu nome"
                     value = {name}
@@ -38,6 +39,7 @@ const Form = (props) => {
                 />
                 <TextField 
                     required={true}
+                    showAsterisk={true}
                     label="Função"
                     placeholder="Digite a sua função"
                     value = {role}
@@ -45,6 +47,7 @@ const Form = (props) => {
                 />
                 <TextField
                     label="Imagem"
+                    showAsterisk={false}
                     placeholder="Informe o endereço da imagem"
                     value = {img}
                     onTyping={value => setImg(value)}

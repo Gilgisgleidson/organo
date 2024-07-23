@@ -11,7 +11,7 @@ const TextField = (props) => {
         <div className='text-field'>
             <label>
                 {labelParts[0]}
-                <span className="asterisk">*</span>
+                {props.showAsterisk && <span className="asterisk">*</span>}
                 {labelParts[1]}
             </label>
             <input
