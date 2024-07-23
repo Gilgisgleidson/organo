@@ -17,3 +17,8 @@
     padding: 24px;
     box-sizing: border-box;
 }
+
+.asterisk {
+    color: red;
+    margin-left: 2px;
+}

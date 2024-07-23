@@ -8,32 +8,32 @@ function App() {
 
   const teams = [
     {
-      name: 'Time 1',
+      name: 'Equipe 1',
       primaryColor: '#57c278',
       secondaryColor: '#D9F7E9'
     },
     {
-      name: 'Time 2',
+      name: 'Equipe 2',
       primaryColor: '#82CFFA',
       secondaryColor: '#E8F8FF'
     },
     {
-      name: 'Time 3',
+      name: 'Equipe 3',
       primaryColor: '#A6D157',
       secondaryColor: '#F0F8E2'
     },
     {
-      name: 'Time 4',
+      name: 'Equipe 4',
       primaryColor: '#DB6EBF',
       secondaryColor: '#FAE9F5'
     },
     {
-      name: 'Time 5',
+      name: 'Equipe 5',
       primaryColor: '#FFBA05',
       secondaryColor: '#FFF5D9'
     },
     {
-      name: 'Time 6',
+      name: 'Equipe 6',
       primaryColor: '#FF8A29',
       secondaryColor: '#FFEEDF'
     },

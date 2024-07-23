@@ -15,7 +15,9 @@ const Footer = () => {
                 </a>
             </div>
             <img className='logo' src='/images/logo.png' alt='logo'/>
-            <p>Desenvolvido por Marcelo Ferreira.</p>
+            <a href="https://github.com/gilgisgleidson" target="_blank" rel="noreferrer">
+                <p>Desenvolvido por Marcelo Ferreira.</p>
+            </a>
         </footer>
     )
 }

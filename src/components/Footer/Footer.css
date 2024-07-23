@@ -10,4 +10,13 @@
 .footer a{
     display: inline-block;
     margin-right: 32px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+@media (max-width: 600px) {
+    .footer .logo {
+        content: url('../../../public/favicon.ico'); /* Troca a imagem para o favicon */
+    }
 }

@@ -1,9 +1,15 @@
-import './Combo.css'
+import './Combo.css';
 
 const Combo = (props) => {
+    const labelParts = props.label.split('*');
+    
     return (
         <div className='combo'>
-            <label>{props.label}</label>
+            <label>
+                {labelParts[0]}
+                <span className="asterisk">*</span>
+                {labelParts[1]}
+            </label>
             <select onChange={event => props.onTyping(event.target.value)} required={props.required} value={props.value}>
                 <option value={''} />
                 {props.itens.map(item => {
@@ -11,7 +17,7 @@ const Combo = (props) => {
                 })}
             </select>
         </div>
-    )
+    );
 }
 
-export default Combo
+export default Combo;
